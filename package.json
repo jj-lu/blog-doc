@@ -1,0 +1,25 @@
+{
+  "name": "blog-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "sh":"bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jj-lu/blog-doc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jj-lu/blog-doc/issues"
+  },
+  "homepage": "https://github.com/jj-lu/blog-doc#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
